@@ -7,6 +7,8 @@
         "flamegraph",
         "Haller",
         "kittest",
+        "librust",
+        "lucasmerlin",
         "lycheecache",
         "Niederberger",
         "RUSTC",
@@ -16,5 +18,13 @@
         "serde",
         "winit",
         "wmctrl"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:second}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }

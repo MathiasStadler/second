@@ -8,6 +8,15 @@
 <!-- keep the format -->
 ## test out flamegraph
 <!-- keep the format -->
+-- install
+  -- folder **egui_plot** NOT DEMO
+-- enable without reboot
+-- set
+sysctl -w kernel/perf_event_paranoid=1
+-- check
+sysctl --all |grep perf_event_paranoid
+-- show current settings
+sudo sysctl --all |grep perf_event_paranoid
 cargo flamegraph
 <!-- keep the format -->
 RUST_LOG=trace cargo flamegraph
@@ -18,6 +27,8 @@ The platform you're compiling for is not supported by winit cargo flamegraph
 ## FOUND HERE [![alt text][1]](https://stackoverflow.com/questions/74633209/im-unable-to-run-rust-winit-application-on-alpine-wayland)
 
 ## Which target already installed
+
+sudo apt install librust-winit-dev
 
 rustup target list |grep installed
 
