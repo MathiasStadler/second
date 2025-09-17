@@ -4,10 +4,17 @@
         "egui",
         "emath",
         "Ernerfeldt",
+        "flamegraph",
         "Haller",
         "kittest",
         "lycheecache",
         "Niederberger",
-        "serde"
+        "RUSTC",
+        "rustflags",
+        "rustup",
+        "sccache",
+        "serde",
+        "winit",
+        "wmctrl"
     ]
 }
