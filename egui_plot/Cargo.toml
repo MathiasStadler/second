@@ -12,6 +12,10 @@ version = "0.33.0"
 
 [profile.release]
 opt-level = 2 # fast and small wasm
+strip = true # Automatically strip symbols from the binary
+# german - Automatisches Entfernen von Symbolen aus der Binärdatei
+lto = true # Enable link time optimization
+codegen-units = 1
 
 [profile.dev.package."*"]
 # Optimize all dependencies even in debug builds (does not affect workspace packages):

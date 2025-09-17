@@ -1,4 +1,9 @@
 # Custom Dictionary Words
+Automatisches
+Binärdatei
 bindgen
+codegen
 eframe
+Entfernen
 humantime
+Symbolen
