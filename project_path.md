@@ -39,7 +39,6 @@ The platform you're compiling for is not supported by winit cargo flamegraph
 - codegen-units = 1 # 11M
 . rustc -C target-cpu=native demo/src/main.rs
 
-
 ## Which target already installed
 
 sudo apt install librust-winit-dev
