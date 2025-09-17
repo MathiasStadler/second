@@ -3,6 +3,7 @@ Automatisches
 Binärdatei
 bindgen
 codegen
+debuginfo
 eframe
 Entfernen
 humantime
