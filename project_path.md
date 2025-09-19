@@ -56,11 +56,18 @@ wasm32-unknown-unknown
 
 ## used platform
 
+## show display manager
+
 wmctrl -m
 Name: GNOME Shell
 Class: N/A
 PID: N/A
 Window manager's "showing the desktop" mode: OFF
+
+## Show available toolchain
+
+rustup target list
+rustup target list |grep wasm
 
 <!-- keep the format -->
 For further steps, see Project path [![alt text][1]](project_path.md)
