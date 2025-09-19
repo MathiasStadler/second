@@ -29,6 +29,7 @@
         "sccache",
         "serde",
         "uninlined",
+        "wgpu",
         "winit",
         "wmctrl"
     ],
