@@ -8,6 +8,7 @@
         "emilk",
         "Ernerfeldt",
         "expl",
+        "Externref",
         "flamegraph",
         "Haller",
         "idents",
@@ -29,6 +30,7 @@
         "sccache",
         "serde",
         "uninlined",
+        "wbindgen",
         "wgpu",
         "winit",
         "wmctrl"
